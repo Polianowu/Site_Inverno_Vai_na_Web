@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lily+Script+One&family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  background-color: #4b93bf;
+  justify-content: space-between;
+  color: #ffffff;
+}
+figure {
+  display: flex;
+  align-items: center;
+  width: 26vw;
+}
+nav {
+  width: 50vw;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 13vh;
+  font-size: 20px;
+}
+.primeiraSessãoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e4eef1;
+}
+p {
+  /*border: solid 5px red;*/
+  width: 46vw;
+  font-size: 20px;
+}
+.segundaSessãoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #4b93bf;
+}
+.terceiraSessãoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e4eef1;
+}
+.terceiraSessãoDaMain img {
+  width: 42vw;
+  height: 58vh;
+}
+.ursoAcordando {
+  position: relative;
+  top: 8px;
+  left: 20px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #4b93bf;
+}
+.logosDoFooter {
+  width: 90px;
+  height: 90px;
+}
+.pinguim {
+  margin-left: 80px;
+}
